@@ -1,16 +1,13 @@
 [
   {
-    "title": "测试案例",
+    "title": "澜溪镇",
     "slug": "test-project",
     "category": "效果图方案",
-    "area": "120㎡",
+    "area": "260㎡",
     "location": "合肥",
-    "style": "现代原木",
-    "cover": "/media/5024332723aadca49c56b277a28d4428.jpg",
+    "style": "自然风",
+    "cover": "/media/客厅（封面）.jpg",
     "summary": "测试网站案例展示功能。",
-    "gallery": [
-      "/media/99a315d91a406118118f2a68df227932.jpg"
-    ],
     "published": true
   }
 ]
