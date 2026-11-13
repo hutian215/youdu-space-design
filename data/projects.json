@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "title": "测试案例",
+    "slug": "test-project",
+    "category": "效果图方案",
+    "area": "120㎡",
+    "location": "合肥",
+    "style": "现代原木",
+    "summary": "测试网站案例展示功能。",
+    "published": true
+  }
+]
