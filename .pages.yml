@@ -1,0 +1,52 @@
+media:
+  input: media
+  output: /media
+  rename: safe
+  extensions: [jpg, jpeg, png, webp, avif]
+
+content:
+  - name: projects
+    label: 设计案例
+    type: file
+    path: data/projects.json
+    format: json
+    list: true
+    fields:
+      - name: title
+        label: 项目名称
+        type: string
+        required: true
+      - name: slug
+        label: 页面标识（英文）
+        type: string
+        required: true
+      - name: category
+        label: 案例分类
+        type: select
+        options:
+          values: [效果图方案, 实景完工, 施工记录, 全过程案例]
+      - name: area
+        label: 房屋面积
+        type: string
+      - name: location
+        label: 项目地点
+        type: string
+      - name: style
+        label: 设计风格
+        type: string
+      - name: cover
+        label: 封面图片
+        type: image
+      - name: summary
+        label: 项目介绍
+        type: text
+      - name: concept
+        label: 设计理念
+        type: text
+      - name: gallery
+        label: 项目图片（可多张）
+        type: image
+        list: true
+      - name: published
+        label: 是否公开展示
+        type: boolean
