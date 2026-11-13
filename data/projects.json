@@ -6,7 +6,11 @@
     "area": "120㎡",
     "location": "合肥",
     "style": "现代原木",
+    "cover": "/media/5024332723aadca49c56b277a28d4428.jpg",
     "summary": "测试网站案例展示功能。",
+    "gallery": [
+      "/media/99a315d91a406118118f2a68df227932.jpg"
+    ],
     "published": true
   }
 ]
